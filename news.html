@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Player Profiles */
+.player-profiles {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.player {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.player img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.player h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <li><a href="image.html">View Gallery</a></li>
+    <section class="player-profiles">
+        <h2>Featured Players</h2>
+        <div class="profile-grid">
+            <div class="player">
+                <img src="player1.jpg" alt="Player 1">
+                <h3>Player Name</h3>
+                <p>Position: Forward</p>
+                <p>Goals: 20</p>
+            </div>
+            <div class="player">
+                <img src="player2.jpg" alt="Player 2">
+                <h3>Player Name</h3>
+                <p>Position: Midfielder</p>
+                <p>Assists: 15</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

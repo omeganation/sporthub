@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports News</title>
+  <style>
+    /* Live Scores */
+.live-scores {
+    padding: 20px;
+    background: #eaf2f8;
+    text-align: center;
+}
+
+.live-scores h2 {
+    margin-bottom: 15px;
+}
+
+.score-ticker {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+  </style>
+
+</head>
+
+<body>
+<section class="live-scores">
+    <h2>Live Scores</h2>
+    <div class="score-ticker">
+        <p>Team A 2 - 1 Team B</p>
+        <p>Team C 0 - 0 Team D</p>
+    </div>
+</section>
+
+<section class="live-scores">
+    <h2>Live Scores</h2>
+    <div id="live-scores">
+        Loading live scores...
+    </div>
+</section>
+
+
+</body>
+</html>

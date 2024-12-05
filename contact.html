@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>>
+        /* Contact */
+.contact {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #e67e22;
+}
+
+    </style>
+</head>
+<body>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+</body>
+</html>

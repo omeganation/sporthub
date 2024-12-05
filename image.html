@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Gallery */
+.gallery {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+</head>
+<body>
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="match1.jpg" alt="Match 1">
+            <img src="match2.jpg" alt="Match 2">
+            <img src="match3.jpg" alt="Match 3">
+            <img src="match4.jpg" alt="Match 4">
+        </div>
+    </section>
+    
+</body>
+</html>
