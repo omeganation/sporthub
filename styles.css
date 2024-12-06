@@ -108,6 +108,7 @@ header .search-login button:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  background-color: #166b8d;
 }
 
 .news-grid article {
